@@ -21,7 +21,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto lg:px-24 px-4">
+    <header class="container mx-auto lg:px-24 px-2">
         <!-- nav section -->
         <nav class="my-10">
             <div class="navbar bg-base-100">
@@ -37,7 +37,7 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            
+
                             <li><a class="hover:text-red-500 hover:font-semibold">Home</a></li>
                             <li><a class="hover:text-red-500 hover:font-semibold">About</a></li>
                             <li><a class="hover:text-red-500 hover:font-semibold">Pages</a></li>
@@ -52,21 +52,80 @@
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a class="hover:text-red-500 hover:font-semibold">Home</a></li>
-                            <li><a class="hover:text-red-500 hover:font-semibold">About</a></li>
-                            <li><a class="hover:text-red-500 hover:font-semibold">Pages</a></li>
-                            <li><a class="hover:text-red-500 hover:font-semibold">Blog</a></li>
-                            <li><a class="hover:text-red-500 hover:font-semibold">Contact</a></li>
+                        <li><a class="hover:text-red-500 hover:font-semibold">About</a></li>
+                        <li><a class="hover:text-red-500 hover:font-semibold">Pages</a></li>
+                        <li><a class="hover:text-red-500 hover:font-semibold">Blog</a></li>
+                        <li><a class="hover:text-red-500 hover:font-semibold">Contact</a></li>
                     </ul>
                 </div>
                 <!-- nav bar end for lg -->
                 <div class="navbar-end">
                     <div class="flex justify-center items-center space-x-3">
                         <img src="Images/search.png" alt="" class="hidden lg:flex px-3 py-4">
-                        <a class="btn bg-red-500 text-xs font-bold lg:text-sm lg:px-6 text-white lg:hover:text-red-500">Get Ticket</a>
+                        <a class="btn bg-red-500 text-xs font-bold lg:text-sm lg:px-6 text-white lg:hover:text-red-500">Get
+                            Ticket</a>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!-- banner section -->
+        <div class="my-10">
+            <!-- carousel or slider section -->
+            <div class="carousel w-full">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+
+                    <div
+                        class="absolute flex justify-between transform -translate-y-2 lg:-translate-y-1/2 left-0  bottom-0 space-x-3 lg:space-x-5  translate-x-[150px] lg:translate-x-10">
+                        <a href="#slide4" class="btn text-white bg-slate-800 btn-circle hover:bg-red-500">❮</a>
+                        <a href="#slide2" class="btn text-white bg-slate-800  btn-circle hover:bg-red-500 ">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❮</a>
+                        <a href="#slide4"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle  text-white bg-slate-800 btn-circle hover:bg-red-500">❯</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- badges section -->
+            <div
+                class="bg-slate-800  lg:w-[48%] lg:translate-x-[100%] lg:-translate-y-[125%] px-4 lg:px-7 py-4 lg:py-8 space-y-4 rounded-lg">
+
+                <h3 class="text-xl lg:text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-sm font-medium text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+               turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+        </div>
 
     </header>
 
