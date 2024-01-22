@@ -14,16 +14,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
 </head>
 
 <body class="font-manrope">
-    <header>
+    <header class="container mx-auto lg:px-24 px-4">
+        <!-- nav section -->
+        <nav class="my-10">
+            <div class="navbar bg-base-100">
+                <!-- navbar start sm -->
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            
+                            <li><a class="hover:text-red-500 hover:font-semibold">Home</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">About</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Pages</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Blog</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- navbar start for lg -->
+                    <a class="btn btn-ghost text-xl lg:text-3xl font-extrabold text-red-500">Hockey’s</a>
+                </div>
+                <!-- navbar middle for lg -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="hover:text-red-500 hover:font-semibold">Home</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">About</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Pages</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Blog</a></li>
+                            <li><a class="hover:text-red-500 hover:font-semibold">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- nav bar end for lg -->
+                <div class="navbar-end">
+                    <div class="flex justify-center items-center space-x-3">
+                        <img src="Images/search.png" alt="" class="hidden lg:flex px-3 py-4">
+                        <a class="btn bg-red-500 text-xs font-bold lg:text-sm lg:px-6 text-white lg:hover:text-red-500">Get Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
     </header>
+
     <main>
 
     </main>
